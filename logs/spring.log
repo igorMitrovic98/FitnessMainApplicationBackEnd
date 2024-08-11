@@ -1,0 +1,398 @@
+2024-03-28 00:12:20  WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h56m5s853ms826µs600ns).
+2024-03-28 00:17:39  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-28 00:17:39  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-28 00:17:39  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-28 09:55:05  INFO  u.e.i.f.FitnessAppBackEndApplication - Starting FitnessAppBackEndApplication using Java 17.0.10 with PID 6296 (C:\Users\PC\IdeaProjects\FitnessAppBackEnd\target\classes started by PC in C:\Users\PC\IdeaProjects\FitnessAppBackEnd)
+2024-03-28 09:55:05  INFO  u.e.i.f.FitnessAppBackEndApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-28 09:55:06  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-28 09:55:06  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 16 JPA repository interfaces.
+2024-03-28 09:55:07  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-03-28 09:55:07  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-28 09:55:07  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-28 09:55:07  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-28 09:55:07  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1577 ms
+2024-03-28 09:55:07  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-28 09:55:07  INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61394494
+2024-03-28 09:55:07  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-28 09:55:07  INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-28 09:55:08  INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-28 09:55:08  INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-03-28 09:55:08  INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-28 09:55:09  INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-28 09:55:09  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-28 09:55:10  INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-28 09:55:10  WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28 09:55:11  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path ''
+2024-03-28 09:55:11  INFO  u.e.i.f.FitnessAppBackEndApplication - Started FitnessAppBackEndApplication in 5.797 seconds (process running for 6.529)
+2024-03-28 09:55:16  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-28 09:55:16  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-28 09:55:16  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-03-28 09:55:16  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 09:55:46  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 09:56:49  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 09:56:49  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 09:56:50  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 09:56:50  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 09:56:50  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 09:56:50  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 09:56:50  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 09:56:50  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 09:56:50  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 09:56:50  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 09:56:50  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 3
+2024-03-28 09:56:59  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 09:56:59  INFO  u.e.i.f.c.QuestionController - Getting the question for program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user undefined and the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user undefined and the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 09:56:59  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 2
+2024-03-28 09:56:59  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 3
+2024-03-28 09:56:59  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 1
+2024-03-28 09:56:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 09:56:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 09:56:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 09:56:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 09:56:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 09:56:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 09:57:11  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 09:57:11  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 09:57:11  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 09:57:11  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 09:57:11  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 09:57:11  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 09:57:11  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 09:57:11  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 09:57:11  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 09:57:11  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 09:57:11  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 09:57:13  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 09:58:37  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 09:58:37  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 09:58:37  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 09:58:37  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 09:58:37  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 09:58:37  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 09:58:37  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 09:58:37  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 09:58:37  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 09:58:37  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 09:58:37  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 09:58:38  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 10:04:32  INFO  u.e.i.f.controllers.UserController - Signing into the account.
+2024-03-28 10:04:33  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 10:04:42  INFO  u.e.i.f.controllers.AvatarController - Creating a new message.
+2024-03-28 10:04:44  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 10:04:44  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 10:04:44  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 10:04:44  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 10:04:44  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 10:04:44  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 10:04:44  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 10:04:44  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 10:04:44  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 10:04:44  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 10:04:44  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 10:04:47  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 10:07:52  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 10:07:52  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 10:57:26  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 10:57:26  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 10:57:26  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 10:57:26  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 10:57:26  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 10:57:26  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 10:57:26  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 10:57:26  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 10:57:26  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 10:57:26  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 10:57:26  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 10:57:59  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 10:57:59  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 10:57:59  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 10:57:59  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 10:57:59  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 10:57:59  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 10:57:59  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 10:58:02  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 10:58:02  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 10:58:02  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 10:58:02  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 10:58:02  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 10:58:13  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 10:58:13  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 1
+2024-03-28 10:58:13  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.QuestionController - Getting the question for program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user undefined and the program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user undefined and the program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 10:58:13  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 5
+2024-03-28 10:58:13  INFO  u.e.i.f.c.PictureController - Reply for the question 7 not found.
+2024-03-28 10:58:13  INFO  u.e.i.f.c.PictureController - Reply for the question 6 not found.
+2024-03-28 10:58:13  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 10:58:13  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 10:58:13  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 10:58:13  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 10:59:09  INFO  u.e.i.f.controllers.UserController - Setting the user mira account active.
+2024-03-28 10:59:16  INFO  u.e.i.f.controllers.UserController - Signing into the account.
+2024-03-28 10:59:16  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 10:59:41  INFO  u.e.i.f.c.ProgramController - Getting all the programs for user mira
+2024-03-28 10:59:41  INFO  u.e.i.f.c.UsersProgramsController - Getting all of the purchases for the user mira
+2024-03-28 10:59:41  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 10:59:41  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 10:59:41  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 10:59:41  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 10:59:41  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 10:59:59  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 3
+2024-03-28 10:59:59  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 10:59:59  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.c.QuestionController - Getting the question for program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user mira and the program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user mira and the program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 1
+2024-03-28 10:59:59  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 3
+2024-03-28 10:59:59  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 2
+2024-03-28 10:59:59  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 10:59:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 10:59:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 10:59:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 10:59:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 10:59:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 10:59:59  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:00:27  INFO  u.e.i.f.controllers.AvatarController - Creating a new message.
+2024-03-28 11:00:30  INFO  u.e.i.f.controllers.UserController - Getting the user mira
+2024-03-28 11:00:30  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:00:30  INFO  u.e.i.f.controllers.UserController - Getting the user mira
+2024-03-28 11:01:08  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:08  INFO  u.e.i.f.c.PictureController - Getting the category subscriptions for user mira
+2024-03-28 11:01:16  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:16  INFO  u.e.i.f.c.PictureController - Deleting a category subscription
+2024-03-28 11:01:16  INFO  u.e.i.f.c.PictureController - Getting the category subscriptions for user mira
+2024-03-28 11:01:16  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:16  INFO  u.e.i.f.c.PictureController - Deleting a category subscription
+2024-03-28 11:01:16  INFO  u.e.i.f.c.PictureController - Getting the category subscriptions for user mira
+2024-03-28 11:01:22  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:22  INFO  u.e.i.f.c.PictureController - Creating a new category subscription
+2024-03-28 11:01:22  INFO  u.e.i.f.c.PictureController - Getting the category subscriptions for user mira
+2024-03-28 11:01:22  INFO  u.e.i.f.c.PictureController - Creating a new category subscription
+2024-03-28 11:01:22  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:22  INFO  u.e.i.f.c.PictureController - Getting the category subscriptions for user mira
+2024-03-28 11:01:26  INFO  u.e.i.f.c.PictureController - Creating a new category subscription
+2024-03-28 11:01:26  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:26  INFO  u.e.i.f.c.PictureController - Getting the category subscriptions for user mira
+2024-03-28 11:01:26  INFO  u.e.i.f.c.PictureController - Creating a new category subscription
+2024-03-28 11:01:26  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:26  INFO  u.e.i.f.c.PictureController - Getting the category subscriptions for user mira
+2024-03-28 11:01:50  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 11:01:50  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:01:50  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:01:50  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:01:50  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 11:01:50  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:01:50  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 11:01:57  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:01:57  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 11:01:57  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 11:01:57  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 11:01:57  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:02:01  INFO  u.e.i.f.c.ProgramController - Getting all the programs for user mira
+2024-03-28 11:02:01  INFO  u.e.i.f.c.UsersProgramsController - Getting all of the purchases for the user mira
+2024-03-28 11:02:01  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 11:02:01  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 11:02:01  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:02:01  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 11:02:01  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:02:02  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:02:02  INFO  u.e.i.f.c.InstructorController - Getting all the instructor.
+2024-03-28 11:02:02  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 11:02:48  INFO  u.e.i.f.c.ProgramController - Creating a new program.
+2024-03-28 11:02:48  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 11:02:49  INFO  u.e.i.f.c.AttributeValueController - New value added to attributeValue.
+2024-03-28 11:02:49  INFO  u.e.i.f.c.AttributeValueController - New value added to attributeValue.
+2024-03-28 11:02:49  INFO  u.e.i.f.c.PictureController - Picture for program 15 created successfully.
+2024-03-28 11:02:51  INFO  u.e.i.f.c.ProgramController - Getting all the programs for user mira
+2024-03-28 11:02:51  INFO  u.e.i.f.c.UsersProgramsController - Getting all of the purchases for the user mira
+2024-03-28 11:02:51  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:02:51  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 11:02:51  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 15
+2024-03-28 11:02:51  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 11:02:51  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 11:02:51  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:04:22  INFO  u.e.i.f.controllers.AvatarController - Getting the messages for the user mira
+2024-03-28 11:04:34  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:04:34  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:04:34  INFO  u.e.i.f.controllers.AvatarController - Updating a message.
+2024-03-28 11:04:42  INFO  u.e.i.f.controllers.AvatarController - Creating a new message.
+2024-03-28 11:04:47  INFO  u.e.i.f.controllers.UserController - Getting all the users.
+2024-03-28 11:05:02  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 11:05:02  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 11:05:07  INFO  u.e.i.f.controllers.UserController - Signing into the account.
+2024-03-28 11:05:07  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 11:05:16  INFO  u.e.i.f.controllers.AvatarController - Getting the messages for the user igor
+2024-03-28 11:05:18  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:05:18  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:05:18  INFO  u.e.i.f.controllers.AvatarController - Updating a message.
+2024-03-28 11:05:23  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 11:05:23  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:05:23  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:05:23  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 11:05:23  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:05:23  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:23  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 11:05:25  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:05:25  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 11:05:25  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 11:05:25  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 11:05:25  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:05:26  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:05:26  INFO  u.e.i.f.c.ProgramController - Getting the program 15
+2024-03-28 11:05:26  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 15
+2024-03-28 11:05:27  INFO  u.e.i.f.c.ProgramController - Getting the program 15
+2024-03-28 11:05:27  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 11:05:27  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 15
+2024-03-28 11:05:27  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 2
+2024-03-28 11:05:27  INFO  u.e.i.f.c.QuestionController - Getting the question for program 15
+2024-03-28 11:05:27  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user igor and the program 15
+2024-03-28 11:05:27  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user igor and the program 15
+2024-03-28 11:05:27  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 15
+2024-03-28 11:05:27  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 15
+2024-03-28 11:05:35  INFO  u.e.i.f.c.ProgramController - Getting the program 15
+2024-03-28 11:05:35  INFO  u.e.i.f.c.QuestionController - Creating a question
+2024-03-28 11:05:35  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 2
+2024-03-28 11:05:35  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 11:05:35  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 15
+2024-03-28 11:05:35  INFO  u.e.i.f.c.QuestionController - Getting the question for program 15
+2024-03-28 11:05:35  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 15
+2024-03-28 11:05:35  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user igor and the program 15
+2024-03-28 11:05:35  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user igor and the program 15
+2024-03-28 11:05:35  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 15
+2024-03-28 11:05:40  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 11:05:40  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:05:40  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:05:40  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:05:40  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 11:05:40  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 11:05:40  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:41  INFO  u.e.i.f.c.ProgramController - Getting all the programs for user igor
+2024-03-28 11:05:41  INFO  u.e.i.f.c.UsersProgramsController - Getting all of the purchases for the user igor
+2024-03-28 11:05:41  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:05:41  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:05:41  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:42  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:05:42  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 11:05:42  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:05:42  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:05:42  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 11:05:42  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:42  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 11:05:43  INFO  u.e.i.f.c.ProgramController - Getting all the programs for user igor
+2024-03-28 11:05:43  INFO  u.e.i.f.c.UsersProgramsController - Getting all of the purchases for the user igor
+2024-03-28 11:05:43  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:05:43  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:05:43  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:45  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 11:05:45  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 1
+2024-03-28 11:05:45  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user igor and the program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user igor and the program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.QuestionController - Getting the question for program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:05:45  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 5
+2024-03-28 11:05:45  INFO  u.e.i.f.c.PictureController - Reply for the question 7 not found.
+2024-03-28 11:05:45  INFO  u.e.i.f.c.PictureController - Reply for the question 6 not found.
+2024-03-28 11:05:45  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:05:45  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:05:45  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:05:45  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:05:48  INFO  u.e.i.f.c.ProgramController - Getting all the programs for user igor
+2024-03-28 11:05:48  INFO  u.e.i.f.c.UsersProgramsController - Getting all of the purchases for the user igor
+2024-03-28 11:05:48  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:05:48  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:05:48  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 11:05:52  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 3
+2024-03-28 11:05:52  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user igor and the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user igor and the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.QuestionController - Getting the question for program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:05:52  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 1
+2024-03-28 11:05:52  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 2
+2024-03-28 11:05:52  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 3
+2024-03-28 11:05:52  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:05:52  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:05:52  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:05:52  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:05:52  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:05:52  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:06:01  INFO  u.e.i.f.c.QuestionController - Creating a question
+2024-03-28 11:06:01  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 3
+2024-03-28 11:06:01  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 11:06:01  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.QuestionController - Getting the question for program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user igor and the program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user igor and the program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:06:01  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 1
+2024-03-28 11:06:01  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 2
+2024-03-28 11:06:01  INFO  u.e.i.f.c.PictureController - Getting a reply for the question 3
+2024-03-28 11:06:01  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:06:01  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:06:01  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:06:01  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:06:01  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:06:01  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user mira
+2024-03-28 11:06:09  INFO  u.e.i.f.c.LocationController - Getting all the locations.
+2024-03-28 11:06:09  INFO  u.e.i.f.c.CategoryController - Getting all the categories.
+2024-03-28 11:06:09  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:06:09  INFO  u.e.i.f.c.ProgramController - Getting the program 12
+2024-03-28 11:06:09  INFO  u.e.i.f.c.ProgramController - Getting the program 9
+2024-03-28 11:06:09  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 9
+2024-03-28 11:06:09  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 12
+2024-03-28 11:06:11  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:06:11  INFO  u.e.i.f.c.ProgramController - Getting the program 14
+2024-03-28 11:06:11  INFO  u.e.i.f.c.ProgramController - Getting the program 13
+2024-03-28 11:06:11  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 13
+2024-03-28 11:06:11  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 14
+2024-03-28 11:06:11  INFO  u.e.i.f.c.ProgramController - Get all paginated programs
+2024-03-28 11:06:11  INFO  u.e.i.f.c.ProgramController - Getting the program 15
+2024-03-28 11:06:11  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.ProgramController - Getting the program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.InstructorController - Getting the instructor with the id 2
+2024-03-28 11:06:12  INFO  u.e.i.f.c.LocationController - Getting the location with id4
+2024-03-28 11:06:12  INFO  u.e.i.f.c.AttributeValueController - Getting all the attriuteValues for the program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.QuestionController - Getting the question for program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.UsersProgramsController - Getting the purchase for the user igor and the program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.PictureController - Getting all the pictures for the program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.UsersProgramsController - Getting a single purchase fo the user igor and the program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.PictureController - Getting the picture for the program 15
+2024-03-28 11:06:12  INFO  u.e.i.f.c.PictureController - Reply for the question 8 not found.
+2024-03-28 11:06:12  INFO  u.e.i.f.controllers.AvatarController - Avatar is found for the user igor
+2024-03-28 11:06:33  INFO  u.e.i.f.c.UsersProgramsController - Creating a purchase for the user igor and the program 15
+2024-03-28 11:06:33  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 11:10:50  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 11:12:18  INFO  u.e.i.f.controllers.UserController - Signing into the account.
+2024-03-28 11:12:18  INFO  u.e.i.f.controllers.NewsController - Getting the news from the extern API
+2024-03-28 11:12:25  INFO  u.e.i.f.controllers.AvatarController - Creating a new message.
+2024-03-28 11:14:31  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-28 11:14:31  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-28 11:14:31  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
